@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewreport" content="width=device-with, intital-scale=1.0">
+<title> SHORT LINKS </title>
+<link rel="stylesheet" href="styl.css" type="text/css">
+</head>
+<style>
+    * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1516557070061-c3d1653fa646?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.5, 0.5px), rgba(0, 0, 0, 0.5, 0.5px);
+    background-size: fixed;
+}
+input{
+    width: 350px;
+    height:50px;
+}
+h1{
+    color:#FFFFFF;
+    margin-top: 100px;
+    text-align:center;
+    padding: 5px;
+    margin-bottom: 100px;
+    font-size: 800;
+    
+}
+#btt{
+    margin-right: 300px;
+}
+textarea {
+    width: 300px;
+    height: 350px;
+  }
+</style>
+<body>
+        <header>
+            <h1> SHORTENING URL </h1>
+        </header>
+    <form class="container">
+        <div>
+            <input type="url" class="w-50 p-3 form-control mb-4" placeholder="Enter Your URL"id=”urlinput”>
+            <button class=" w-25 p-3 btn btn-primary btn-lg" onclick="shorturl()"><b>Submit</b></button>
+        </div>
+    </form>
+    <div class = "container mt-5">
+        <textarea  class="h-100 d-inline-block w-100 p-3 form-control" value="" style="width: 120px; background-color: rgba(221, 221, 226, 0.911)" id="exampleFormControlTextarea1" rows="3">
+        </textarea>
+    </div>
+     <script src=”main.js”>
+         shorturl{
+             
+         }
+     </script>
+
+</body>
